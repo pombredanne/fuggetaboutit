@@ -1,9 +1,10 @@
 # Fugget About It
 [![Build Status](https://secure.travis-ci.org/mynameisfiber/fuggetaboutit.png?branch=master)](http://travis-ci.org/mynameisfiber/fuggetaboutit)
+[![PyPI version](https://badge.fury.io/py/fuggetaboutit.svg)](https://badge.fury.io/py/fuggetaboutit)
 
 > auto-scaling probabilistic time windowed set inclusion datastructure
 
-[_docs_](http://micha.gd/fuggetaboutit)
+[_docs_](http://micha.codes/fuggetaboutit)
 
 ### what is?
 
@@ -67,13 +68,13 @@ MacBook Air, I get:
 ```
 $ python -m fuggetaboutit.benchmark
 Benchmarking blooms with size 100000
-(baseline timing of keygeneration: 9.05e-06s, already subtracted from results)
+(baseline timing of keygeneration: 9.84e-06s, already subtracted from results)
 .-------------------------------------------------------------------------------.
 |                                    | bench_add | bench_contains | bench_decay |
 |===============================================================================|
-|                Timing Bloom Filter | 1.14e-05s | 8.3294845e-06s | 7.1923e-03s |
-|        Scaling Timing Bloom Filter | 1.80e-05s | 9.4831681e-06s | 2.0861e-03s |
-| Scaled Scaling Timing Bloom Filter | 1.73e-05s | 1.8474863e-05s | 1.8751e-02s |
+|                Timing Bloom Filter | 1.09e-05s | 8.1764627e-06s | 1.9898e-03s |
+|        Scaling Timing Bloom Filter | 1.57e-05s | 1.6510360e-05s | 2.3653e-03s |
+| Scaled Scaling Timing Bloom Filter | 2.41e-05s | 1.9161074e-05s | 1.5937e-02s |
 '-------------------------------------------------------------------------------'
 ```
 
